@@ -14,7 +14,9 @@ export default class Tick extends TickParent{
 	}
 
 	tick(){
-		this.setInterval(this.setState({count:this.state.count + 1}));
+		this.setInterval(
+			()=>{this.setState({count:this.state.count + 1});}
+			);
 	}
 	render(){
 		return <div>this has runing:{this.state.count}</div>;

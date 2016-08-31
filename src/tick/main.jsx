@@ -3,6 +3,6 @@ import React from 'react'
 import Tick from './tick.jsx'
 
 ReactDOM.render(
-	<Tick tickIniCount={Tick.defaultProps.tickIniCount}></Tick>,
+	<Tick></Tick>,
 	document.getElementById("test")
 	)
