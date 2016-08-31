@@ -4,7 +4,7 @@ import TickParent from './tick-parent.jsx'
 export default class Tick extends TickParent{
 	
 	constructor(props){
-		super();
+		super(props);
 		this.state = {count: props.tickInitCount};
 		this.tick = this.tick.bind(this);
 	}
@@ -24,5 +24,5 @@ export default class Tick extends TickParent{
 	}
 
 }
-Tick.propTypes = {tickIniCount:React.PropTypes.number};
-Tick.defaultProps = {tickIniCount:0};
+Tick.propTypes = {tickInitCount:React.PropTypes.number};
+Tick.defaultProps = {tickInitCount:0};
