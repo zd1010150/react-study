@@ -7,7 +7,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var buffer = require('vinyl-buffer')
 
-var relativePath = 'tick';
+var relativePath = 'sticky-list-view';
 var entries = 'src/'+relativePath+'/main.jsx';
 var destPath = 'dist/'+relativePath;
 
